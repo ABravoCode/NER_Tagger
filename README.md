@@ -36,3 +36,9 @@ bash run_transformer.sh
 ```
 
 for reproducing.
+
+## Reference
+https://github.com/senadkurtisi/pytorch-NER
+https://github.com/baaraban/pytorch_ner
+https://github.com/pauljhp/NERTagging
+https://github.com/Caffretro/COMP7607_Assignment2
