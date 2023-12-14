@@ -8,6 +8,8 @@ class LstmTagger(nn.Module):
         self.hidden_dim = hidden_dim
         self.batch_size = batch_size
         self.word_embeddings = nn.Embedding(vocab_size, embedding_dim)
+        # self.word_embeddings = nn.Embedding.from_pretrained(xxx, freeze=False)
+        
         self.lstm = nn.LSTM(embedding_dim, hidden_dim, batch_first=True)
         self.hidden2tag = nn.Linear(hidden_dim, tagset_size)
 
