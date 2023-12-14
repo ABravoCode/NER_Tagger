@@ -11,7 +11,7 @@ from matplotlib import pyplot as plt
 from tqdm import tqdm
 
 from toolbox import *
-from transformer import TransformerTagger, attention_mask
+from transformer import TransformerTagger
 from options import get_options
 args = get_options()
 

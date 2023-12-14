@@ -1,5 +1,4 @@
 import torch
-import torch.Tensor as Tensor
 
 def tag_to_idx(filepath):
     idx_dict = {}
@@ -114,5 +113,5 @@ def build_batched(filepath, batch_size):
 
     return training_data
 
-def attention_mask(size: int) -> Tensor:
+def attention_mask(size):
     return torch.triu(torch.ones(size, size) * float('-inf'), diagonal=1)

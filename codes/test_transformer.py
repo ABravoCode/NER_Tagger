@@ -9,7 +9,7 @@ import torch.nn as nn
 from seqeval.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
 
 from toolbox import *
-from transformer import TransformerTagger, attention_mask
+from transformer import TransformerTagger
 from options import get_options
 args = get_options()
 
