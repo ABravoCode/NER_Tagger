@@ -37,8 +37,11 @@ bash run_transformer.sh
 
 for reproducing.
 
-## Reference from author
+## Studied code from
 senadkurtisi
+
 baaraban
+
 pauljhp
+
 Caffretro
